@@ -1,0 +1,1 @@
+{appDir:"../",baseUrl:"scripts",dir:"../../build",optimize:"uglify",optimizeCss:"standard",modules:[{name:"main",exclude:["build"]}]}

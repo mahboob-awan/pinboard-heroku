@@ -1,0 +1,32 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout for Pinboard</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script data-main="scripts/main" src="scripts/thirdparty/require.js"></script>
+
+<!-- Temporarily products data is coming from the following source -->
+<script src="data/products.js"></script>
+
+</head>
+<body>
+<button onclick="addProduct();" style="align:center;">Add Product</button>
+<br/>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv">
+  </div> <!-- END LayoutDiv -->
+</div>
+</body>
+</html>
